@@ -5,8 +5,8 @@
   "type": "module",
   "description": "Minimal React example wiring connect/receive/deposit/withdraw/relayer/reputation through @opaquecash/stellar.",
   "scripts": {
-    "dev": "vite",
-    "build": "tsc -b --noEmit && vite build",
+    "dev": "node init && vite",
+    "build": "node init && tsc -b --noEmit && vite build",
     "preview": "vite preview"
   },
   "dependencies": {

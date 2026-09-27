@@ -10,7 +10,7 @@
     "verify:deployment:strict": "tsx scripts/verify-deployment-manifest.ts --strict",
     "verify:security-audit": "tsx scripts/verify-security-audit.ts --network mainnet",
     "update:manifest-wasm": "tsx scripts/update-manifest-wasm-hashes.ts",
-    "build:scanner": "tsx scripts/build-scanner-wasm.ts",
+    "build:scanner": "node init && tsx scripts/build-scanner-wasm.ts",
     "fetch:circuits": "tsx scripts/fetch-circuit-artifacts.ts",
     "verify:artifacts": "tsx scripts/verify-artifact-manifest.ts",
     "update:artifacts": "tsx scripts/update-artifact-manifest.ts --sync-deployments --embedded-vk",

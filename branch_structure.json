@@ -1,0 +1,18 @@
+{
+  "default_branch": "main",
+  "branches": [
+    "fix/scanner-retention-gap-disclosure",
+    "main",
+    "origin"
+  ],
+  "parent": {
+    "fix/scanner-retention-gap-disclosure": "main",
+    "main": null,
+    "origin": "main"
+  },
+  "order": [
+    "main",
+    "fix/scanner-retention-gap-disclosure",
+    "origin"
+  ]
+}

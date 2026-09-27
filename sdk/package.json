@@ -81,7 +81,7 @@
     }
   },
   "scripts": {
-    "build": "tsup && npm run check:size",
+    "build": "node init && tsup && npm run check:size",
     "check:examples": "npm install --prefix examples/react-quickstart && npm run build --prefix examples/react-quickstart",
     "check:size": "node scripts/check-bundle-size.mjs",
     "clean": "rm -rf dist",

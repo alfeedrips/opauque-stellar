@@ -13,8 +13,6 @@ test-ledger/
 ops/slo/
 
 # Secrets at repo root (do not use `.env*` — would ignore `.env.example`)
-.env
-.env.local
 .env.*.local
 
 # Circom Powers of Tau at workspace root (large; fetch via script or docs)
@@ -43,3 +41,4 @@ node_modules/
 plan.md
 .claude/
 guides/
+config.bat
